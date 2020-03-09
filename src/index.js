@@ -1,8 +1,28 @@
 const axios = require("axios");
 
 const appSlugs = {
-  staging: [],
-  master: ["My-App-Slug-Name"]
+  staging: [
+    "Abbey-Gardens-Staging-Android",
+    "Abbey-Gardens-Staging-iOS",
+    "dthree-staging-ios",
+    "DThree-staging-android",
+    "Morelands-Staging-Android",
+    "Morelands-Staging-iOS",
+    "Savving-Staging-Android",
+    "Savvy-Staging-iOS"
+  ],
+  master: [
+    "DThree-live-android",
+    "dthree-live-ios",
+    "Abbey-Gardens-production-Android",
+    "Abbey-Gardens-live-iOS",
+    "Morelands-Android",
+    "Morelands-iOS",
+    "orchard-brae-house-live-ios",
+    "orchard-brae-house-live-android",
+    "Savvy-Android",
+    "Savvy-iOS"
+  ]
 };
 
 const allowedBranches = ["staging", "master"];
