@@ -11,7 +11,18 @@ const appSlugs = {
     "Savving-Staging-Android",
     "Savvy-Staging-iOS"
   ],
-  master: []
+  master: [
+    "DThree-live-android",
+    "dthree-live-ios",
+    "Abbey-Gardens-production-Android",
+    "Abbey-Gardens-live-iOS",
+    "Morelands-Android",
+    "Morelands-iOS",
+    "orchard-brae-house-live-ios",
+    "orchard-brae-house-live-android",
+    "Savvy-Android",
+    "Savvy-iOS"
+  ]
 };
 
 const allowedBranches = ["staging", "master"];
