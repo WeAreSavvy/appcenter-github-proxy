@@ -9,7 +9,9 @@ const appSlugs = {
     "Morelands-Staging-Android",
     "Morelands-Staging-iOS",
     "Savving-Staging-Android",
-    "Savvy-Staging-iOS"
+    "Savvy-Staging-iOS",
+    "Wool-Tailor-staging-iOS",
+    "Wool-Tailor-staging-android"
   ],
   master: [
     "DThree-live-android",
@@ -21,7 +23,9 @@ const appSlugs = {
     "orchard-brae-house-live-ios",
     "orchard-brae-house-live-android",
     "Savvy-Android",
-    "Savvy-iOS"
+    "Savvy-iOS",
+    "Wool-Tailor-live-android",
+    "Wool-Tailor-live-iOS"
   ]
 };
 
