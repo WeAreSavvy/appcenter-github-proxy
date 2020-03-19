@@ -18,3 +18,9 @@ This lambda reads the push event data from Github and fires off a POST request t
 - You need to delete the webhook that AppCenter/Github creates on the repository you are building from, this keeps the App Center <-> Github connection but removes the webhook.
 - Add your Lambda Webhook URL using AWS API Gateway.
 - Add your App Center `X-API-TOKEN` to the Lambda enviroment variables.
+
+## Deploy
+
+- Install the AWS CLI on your machine and authenticate with your iam account
+- Run `yarn deploy` to zip the index.js file and bunlde `node_modules` used for axios
+- This will update the Lambda and deploy it on AWS.
